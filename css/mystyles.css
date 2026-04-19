@@ -1,0 +1,46 @@
+/* Requirement: Font Family & Font Color styles */
+body {
+    background-color: #f8f9fa; /* Light Grey background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Requirement: Style specifying font color for headings */
+h1, h3 {
+    color: #808080; /* Grey headings */
+}
+
+/* Requirement: Styling for the 3 Div blocks */
+.main-content {
+    background-color: #ffffff;
+    border-left: 10px solid #add8e6; /* Light Blue accent */
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+}
+
+.tableau-section {
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #dee2e6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #add8e6; /* Light Blue footer */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+/* Extra styling for the link */
+.footer a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
